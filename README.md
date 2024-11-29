@@ -1,5 +1,7 @@
 # Breast Cancer Prediction with Artificial Neural Networks
 
+## App link: https://juans286-cancer-detection-app-lg9q9g.streamlit.app/
+
 This repository contains the implementation of a Breast Cancer Prediction system using an Artificial Neural Network (ANN). The project involves training an ANN on the Breast Cancer dataset and deploying the model as an interactive web application using Streamlit.
 
 ## Project Structure
