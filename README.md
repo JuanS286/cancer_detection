@@ -30,6 +30,9 @@ The notebook includes:
 1. **Data Preparation**:
    - Loading the Breast Cancer dataset.
    - Feature scaling and selection using `SelectKBest`.
+   - I set SelectKBest to select 15 out of the 30 features. The final features are: ['mean radius', 'mean perimeter',
+     'mean area', 'mean compactness', 'mean concavity', 'mean concave points', 'radius error','perimeter error', 'area error',
+     'worst radius', 'worst perimeter', 'worst area', 'worst compactness', 'worst concavity', 'worst concave points']
 
 2. **Model Training**:
    - Building an ANN using TensorFlow/Keras.
@@ -37,8 +40,15 @@ The notebook includes:
    - Saving the trained model and scaler for deployment.
 
 3. **Evaluation**:
-   - Metrics: Accuracy, F1 Score, Precision, Recall, AUC.
-   - Confusion matrix visualization.
+   - Metrics: Accuracy, AUC.
+
+The result of the model evaluation is presented with the folowing plots:
+
+![image](https://github.com/user-attachments/assets/246af629-226e-4348-8722-f5a0952e1802)
+
+![image](https://github.com/user-attachments/assets/d79f9a5a-3ac6-4e8e-adba-1e1b220682dd)
+
+![image](https://github.com/user-attachments/assets/ae495483-cd1c-4359-b5da-e8482ebae076)
 
 ## Streamlit App (`app.py`)
 
