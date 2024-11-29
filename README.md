@@ -35,11 +35,16 @@ The notebook includes:
      'worst radius', 'worst perimeter', 'worst area', 'worst compactness', 'worst concavity', 'worst concave points']
 
 2. **Model Training**:
+   - Hyperparameter tuning using GridSearchCV. As a result the best parameters are:
+     {'alpha': 0.0001,
+     'hidden_layer_sizes': (64, 32),
+     'learning_rate': 'constant',
+     'max_iter': 2000,
+     'solver': 'adam'}
    - Building an ANN using TensorFlow/Keras.
-   - Hyperparameter tuning using GridSearchCV.
    - Saving the trained model and scaler for deployment.
 
-3. **Evaluation**:
+4. **Evaluation**:
    - Metrics: Accuracy, AUC.
 
 The result of the model evaluation is presented with the folowing plots:
